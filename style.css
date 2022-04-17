@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Square+Peg&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2f363e;
+  font-family: "Beau Rivage", cursive;
+  font-family: "Square Peg", cursive;
+  font-size: 18px;
+  font-style:normal;
+  font-weight: bolder;
+  background-image: url("img/body-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  position: absolute;
+  top: 50px;
+  font-style: italic;
+  font-size: 7rem;
+}
+#time{
+display: flex;
+gap: 40px;
+color: #fff;
+font-size: 10em;
+}
+
+.text-bg{
+  background-image: url("img/clock-bg.gif");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.glow {
+  /* font-size: 80px; */
+  color: rgb(223, 25, 164);
+  text-align: center;
+  animation: glow 0.80s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
